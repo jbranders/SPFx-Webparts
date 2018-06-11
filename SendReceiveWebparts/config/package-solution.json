@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "send-receive-webparts-client-side-solution",
+    "id": "624a006f-c3f2-4f1b-ae1b-577790840485",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/send-receive-webparts.sppkg"
+  }
+}
