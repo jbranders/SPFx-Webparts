@@ -9,10 +9,19 @@
           "manifest": "./src/webparts/senderWebpart/SenderWebpartWebPart.manifest.json"
         }
       ]
+    },
+    "receive-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/receiveWebpart/ReceiveWebpartWebPart.js",
+          "manifest": "./src/webparts/receiveWebpart/ReceiveWebpartWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "SenderWebpartWebPartStrings": "lib/webparts/senderWebpart/loc/{locale}.js"
+    "SenderWebpartWebPartStrings": "lib/webparts/senderWebpart/loc/{locale}.js",
+    "ReceiveWebpartWebPartStrings": "lib/webparts/receiveWebpart/loc/{locale}.js"
   }
 }

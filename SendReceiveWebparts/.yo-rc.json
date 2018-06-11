@@ -6,6 +6,7 @@
     "environment": "spo",
     "packageManager": "npm",
     "componentType": "webpart",
-    "isCreatingSolution": true
+    "isCreatingSolution": false,
+    "plusBeta": true
   }
 }
