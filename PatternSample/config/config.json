@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "factory-method-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/factoryMethod/FactoryMethodWebPart.js",
+          "manifest": "./src/webparts/factoryMethod/FactoryMethodWebPart.manifest.json"
+        }
+      ]
+    },
+    "factory-abstract-method-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/factoryAbstractMethod/FactoryAbstractMethodWebPart.js",
+          "manifest": "./src/webparts/factoryAbstractMethod/FactoryAbstractMethodWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FactoryMethodWebPartStrings": "lib/webparts/factoryMethod/loc/{locale}.js",
+    "FactoryAbstractMethodWebPartStrings": "lib/webparts/factoryAbstractMethod/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.5.0",
+    "libraryName": "pattern-sample",
+    "libraryId": "8568afc2-1e09-4f09-a67c-45d4ad921fb6",
+    "environment": "spo",
+    "packageManager": "npm",
+    "isCreatingSolution": false,
+    "plusBeta": true,
+    "componentType": "webpart"
+  }
+}
